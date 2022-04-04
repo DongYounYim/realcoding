@@ -6,7 +6,7 @@ h2-console:
   port: 8081
 
 spring:
-  r2dbc:
+  r2dbc:  #데이터 베이스를 비동기적으로 처리하는 프로토콜
     initialization-mode: always
     url: r2dbc:h2:mem:///testdb;MODE=MySQL;
     username: sa
